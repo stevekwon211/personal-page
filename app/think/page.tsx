@@ -1,6 +1,10 @@
 import { BlogPosts } from "app/components/posts";
 import { Sidebar } from "app/components/sidebar";
-import { About } from "app/components/about";
+
+export const metadata = {
+    title: "think",
+    description: "this is think.",
+};
 
 export default function Page() {
     return (
@@ -9,9 +13,7 @@ export default function Page() {
                 <Sidebar />
             </aside>
             <section className="flex-grow">
-                <div>
-                    <a>click something on left</a>
-                </div>
+                <BlogPosts />
             </section>
         </div>
     );
