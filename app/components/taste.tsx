@@ -1,5 +1,16 @@
 import Link from "next/link";
 
 export function Taste() {
-    return <h1>taste - contents, product, place</h1>;
+    return (
+        <div className="grid grid-cols-1 gap-4 ml-10 mb-10">
+            <div>
+                <h1>content</h1>
+                <div className="grid grid-cols-3 gap-4 ml-10 mb-10"></div>
+            </div>
+            <div>
+                <h1>product</h1>
+                <div className="grid grid-cols-3 gap-4 ml-10 mb-10"></div>
+            </div>
+        </div>
+    );
 }

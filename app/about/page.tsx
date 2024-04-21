@@ -12,7 +12,7 @@ export default function about_Page() {
             <aside className="w-64 min-h-screen">
                 <Sidebar />
             </aside>
-            <section className="flex-grow">
+            <section>
                 <About />
             </section>
         </div>

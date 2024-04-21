@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             className={cx("text-black bg-white dark:text-white dark:bg-black", GeistSans.variable, GeistMono.variable)}
         >
             <body className="antialiased px-10 py-10 lg:mx-auto">
-                <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+                <main className="flex-wrap min-w-0 mt-6 flex-col px-2 md:px-0">
                     {children}
                     <Footer />
                     <Analytics />
