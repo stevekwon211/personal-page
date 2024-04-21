@@ -33,6 +33,18 @@ html {
     min-width: 360px;
 }
 
+/* 기본 화이트 모드 스타일링 */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* 다크 모드 스타일링 */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 .prose .anchor {
     @apply absolute invisible no-underline;
 
@@ -84,7 +96,7 @@ html {
 }
 
 .prose p {
-    @apply my-4 text-neutral-800 dark:text-neutral-200;
+    @apply my-4;
 }
 
 .prose h1 {

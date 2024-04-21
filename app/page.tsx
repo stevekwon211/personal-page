@@ -1,6 +1,5 @@
-import { BlogPosts } from "app/components/posts";
+import { Navbar } from "app/components/nav";
 import { Sidebar } from "app/components/sidebar";
-import { About } from "app/components/about";
 
 export default function Page() {
     return (

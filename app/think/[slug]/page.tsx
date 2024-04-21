@@ -52,7 +52,7 @@ export default function Blog({ params }) {
     }
 
     return (
-        <section>
+        <section className="">
             <script
                 type="application/ld+json"
                 suppressHydrationWarning
@@ -81,7 +81,7 @@ export default function Blog({ params }) {
                     {formatDate(post.metadata.publishedAt)}
                 </p>
             </div>
-            <article className="prose">
+            <article className="prose mb-40 ">
                 <CustomMDX source={post.content} />
             </article>
         </section>

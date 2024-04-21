@@ -1,10 +1,13 @@
-import Link from "next/link";
+import { ThemeToggle } from "app/components/theme";
 
 export function Sidebar() {
     return (
         <div>
             <ul>
-                <li className="">
+                <li>
+                    <ThemeToggle />
+                </li>
+                <li className="pt-2">
                     <a
                         className="
                         transition-all

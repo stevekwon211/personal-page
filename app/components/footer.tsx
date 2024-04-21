@@ -12,10 +12,16 @@ function ArrowIcon() {
 export default function Footer() {
     return (
         <footer className="">
-            <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+            <ul className="font-sm flex flex-col space-x-0 space-y-2 md:flex-row md:space-x-4 md:space-y-0 ">
                 <li>
                     <a
-                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+                        className="
+                        flex items-center transition-all
+                        duration-500
+                        hover:opacity-100
+                        hover:text-indigo-600
+                        hover:decoration-indigo-600
+                        "
                         rel="noopener noreferrer"
                         target="_blank"
                         href="https://disquiet.io/@kwondoeon"
@@ -26,7 +32,13 @@ export default function Footer() {
                 </li>
                 <li>
                     <a
-                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+                        className="
+                        flex items-center transition-all
+                        duration-500
+                        hover:opacity-100
+                        hover:text-indigo-600
+                        hover:decoration-indigo-600
+                        "
                         rel="noopener noreferrer"
                         target="_blank"
                         href="https://www.instagram.com/kwondoeon/"
@@ -37,7 +49,13 @@ export default function Footer() {
                 </li>
                 <li>
                     <a
-                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+                        className="
+                        flex items-center transition-all
+                        duration-500
+                        hover:opacity-100
+                        hover:text-indigo-600
+                        hover:decoration-indigo-600
+                        "
                         rel="noopener noreferrer"
                         target="_blank"
                         href="https://twitter.com/kwondoeon_dq"
@@ -47,7 +65,7 @@ export default function Footer() {
                     </a>
                 </li>
             </ul>
-            <p className="mt-8 text-neutral-600 dark:text-neutral-300">stevekwon@disquiet.io</p>
+            <p className="mt-8 ">stevekwon@disquiet.io</p>
         </footer>
     );
 }
