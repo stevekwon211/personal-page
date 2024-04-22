@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Group1 from "app/public/Group 1.png";
+import Group1 from "app/public/animal/Group 1 Medium.png";
 
 export function Work() {
     return (
