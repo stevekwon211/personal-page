@@ -5,18 +5,18 @@ import { useState, useEffect } from "react";
 export function ThemeToggle() {
     const [isDarkMode, setIsDarkMode] = useState(false);
 
-    const toggleDarkMode = () => {
+    const toggleWhiteMode = () => {
         const newTheme = !isDarkMode;
         setIsDarkMode(newTheme);
 
-        localStorage.setItem("theme", newTheme ? "dark" : "light");
+        localStorage.setItem("theme", newTheme ? "light" : "dark");
     };
 
     useEffect(() => {
         if (isDarkMode) {
-            document.body.classList.add("dark-mode");
+            document.body.classList.add("white-mode");
         } else {
-            document.body.classList.remove("dark-mode");
+            document.body.classList.remove("white-mode");
         }
     }, [isDarkMode]);
 
@@ -30,9 +30,9 @@ export function ThemeToggle() {
     hover:decoration-indigo-600
     hover:line-through decoration-solid
     "
-            onClick={toggleDarkMode}
+            onClick={toggleWhiteMode}
         >
-            {isDarkMode ? "white" : "dark"}
+            {isDarkMode ? "dark" : "white"}
         </button>
     );
 }

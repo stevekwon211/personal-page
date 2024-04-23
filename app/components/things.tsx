@@ -77,7 +77,7 @@ import Group72 from "app/public/stuff/Group 72.png";
 
 export function Things() {
     return (
-        <div className="grid grid-cols-1 gap-32 ml-10">
+        <div className="grid grid-cols-1 gap-24 ml-10">
             <div>
                 <h1>place</h1>
                 <div className="grid grid-cols-4 gap-5 ml-10 mb-10">
