@@ -80,10 +80,10 @@ export function Things() {
         <div className="grid grid-cols-1 gap-24 ml-10">
             <div>
                 <h1>place</h1>
-                <div className="grid grid-cols-4 gap-5 ml-10 mb-10">
+                <div className="grid grid-cols-4 gap-5 ml-10 mb-10 justify-items-center">
                     <div>
                         <Image src={Group25} alt="Group-25" width={300} height={300} />
-                        <p className="text-sm gap-5 text-center text-slate-400">ueno park</p>
+                        <p className="text-sm gap-5 text-center text-slate-400  ">ueno park</p>
                     </div>
 
                     <div>
@@ -154,9 +154,9 @@ export function Things() {
             </div>
             <div>
                 <h1>animal</h1>
-                <div className="grid grid-cols-7 gap-5 ml-10 mb-10">
-                    <div className="m-12">
-                        <p className="text-sm text-slate-400 text-center">dog</p>
+                <div className="grid grid-cols-7 gap-5 ml-10 mb-10 justify-items-center">
+                    <div className="m-12 ">
+                        <p className="text-sm text-slate-400 text-center ">dog</p>
                     </div>
                     <Image src={Group7} alt="Group-1" width={300} height={300} />
                     <Image src={Group10} alt="Group-1" width={300} height={300} />
