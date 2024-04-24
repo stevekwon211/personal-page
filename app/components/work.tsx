@@ -1,5 +1,5 @@
 import Image from "next/image";
-import dq1 from "app/public/work/dq1 Medium.png";
+
 import dq2 from "app/public/work/dq2 Medium.png";
 import dq3 from "app/public/work/dq3 Medium.png";
 import dq4 from "app/public/work/dq4 Medium.png";
@@ -18,11 +18,10 @@ export function Work() {
                         <a href="https://disquiet.io/">disquiet</a>
                     </p>
                     <p className="text-sm text-slate-400 text-center m-6">2022 ~ present</p>
-                    <p className="text-sm text-slate-400 text-center">operator, founding member</p>
+                    <p className="text-sm text-slate-400 text-center text-balance">operator</p>
                     <p className="text-sm text-slate-400 text-center mb-6">do everything we need</p>
                 </div>
                 <div className=" justify-center	">
-                    <Image src={dq1} alt="dq1" width={300} height={300} className="mb-4" />
                     <Image src={dq3} alt="dq3" width={300} height={300} className="mb-4" />
                     <Image src={dq4} alt="dq4" width={300} height={300} className="mb-4" />
                 </div>

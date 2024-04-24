@@ -189,7 +189,7 @@ export function Things() {
                 <h1>stuff</h1>
                 <div className="ml-10 mb-10">
                     <div className="grid grid-cols-10">
-                        <p className="text-sm text-slate-400 text-center m-8">2024</p>
+                        <p className="text-sm text-slate-400 text-center m-8 content-center">2024</p>
                         <Image src={Group69} alt="Group-69" width={300} height={300} />
                         <Image src={Group70} alt="Group-70" width={300} height={300} />
                         <Image src={Group72} alt="Group-72" width={300} height={300} />
@@ -209,7 +209,7 @@ export function Things() {
                     </div>
 
                     <div className="grid grid-cols-10">
-                        <p className="text-sm text-slate-400 text-center m-8">2023</p>
+                        <p className="text-sm text-slate-400 text-center m-8 content-center">2023</p>
                         <Image src={Group50} alt="Group-50" width={300} height={300} />
                         <Image src={Group57} alt="Group-57" width={300} height={300} />
                         <Image src={Group51} alt="Group-51" width={300} height={300} />
@@ -221,7 +221,7 @@ export function Things() {
                     </div>
 
                     <div className="grid grid-cols-10">
-                        <p className="text-sm text-slate-400 text-center m-8">2022</p>
+                        <p className="text-sm text-slate-400 text-center m-8 content-center">2022</p>
                         <Image src={Group47} alt="Group-47" width={300} height={300} />
                         <Image src={Group46} alt="Group-46" width={300} height={300} />
                         <Image src={Group48} alt="Group-48" width={300} height={300} />
@@ -229,12 +229,12 @@ export function Things() {
                     </div>
 
                     <div className="grid grid-cols-10">
-                        <p className="text-sm text-slate-400 text-center m-8">2020</p>
+                        <p className="text-sm text-slate-400 text-center m-8 content-center">2020</p>
                         <Image src={Group45} alt="Group-45" width={300} height={300} />
                     </div>
 
                     <div className="grid grid-cols-10">
-                        <p className="text-sm text-slate-400 text-center m-8">2019</p>
+                        <p className="text-sm text-slate-400 text-center m-8 content-center">2019</p>
                         <Image src={Group37} alt="Group-37" width={300} height={300} />
                         <Image src={Group39} alt="Group-39" width={300} height={300} />
                         <Image src={Group40} alt="Group-40" width={300} height={300} />
@@ -246,12 +246,12 @@ export function Things() {
                     </div>
 
                     <div className="grid grid-cols-10">
-                        <p className="text-sm text-slate-400 text-center m-8">2017</p>
+                        <p className="text-sm text-slate-400 text-center m-8 content-center">2017</p>
                         <Image src={Group36} alt="Group-36" width={300} height={300} />
                     </div>
 
                     <div className="grid grid-cols-10">
-                        <p className="text-sm text-slate-400 text-center m-8">2015</p>
+                        <p className="text-sm text-slate-400 text-center m-8 content-center">2015</p>
                         <Image src={Group35} alt="Group-35" width={300} height={300} />
                         <Image src={Group34} alt="Group-34" width={300} height={300} />
                         <Image src={Group32} alt="Group-30" width={300} height={300} />
