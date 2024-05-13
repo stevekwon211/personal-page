@@ -10,7 +10,7 @@ import cursor from "app/public/taste/cursor.png";
 import cursorlogo from "app/public/taste/cursor logo.png";
 import muji from "app/public/taste/muji.png";
 import mujilogo from "app/public/taste/muji logo.png";
-import carhartt from "app/public/taste/carhartt.png";
+import carhartt from "app/public/taste/carhartt.jpeg";
 import carharttlogo from "app/public/taste/carhartt logo.png";
 
 export function Taste() {
@@ -33,20 +33,6 @@ export function Taste() {
                                     <div className="">
                                         <p className="text-sm font-semibold text-black-600 underline decoration-solid content-center">
                                             <a href="https://hq.getmatter.com/">matter</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="grid grid-rows-[300px_100px] gap-4 ">
-                                <Image className="" src={rize} alt="matter" width={300} height={300} />
-                                <div className="flex space-x-4">
-                                    <div className="">
-                                        <Image src={rizelogo} alt="matterlogo" width={40} height={40} />
-                                    </div>
-                                    <div className="">
-                                        <p className="text-sm font-semibold text-black-600 underline decoration-solid content-center">
-                                            <a href="https://rize.io?code=963BBD&utm_source=refer&name=Doeon">rize</a>
                                         </p>
                                     </div>
                                 </div>
