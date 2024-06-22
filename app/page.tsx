@@ -4,10 +4,10 @@ import { Sidebar } from "app/components/sidebar";
 export default function Page() {
     return (
         <div className="flex">
-            <aside className="w-64 min-h-screen">
+            <aside className="w-64">
                 <Sidebar />
             </aside>
-            <section className="flex-grow">
+            <section className="flex-wrap">
                 <div>
                     <a>click something on left</a>
                 </div>

@@ -9,7 +9,7 @@ export const metadata = {
 export default function work_Page() {
     return (
         <div className="flex">
-            <aside className="w-64 min-h-screen">
+            <aside className="w-32">
                 <Sidebar />
             </aside>
             <section className="flex-grow">

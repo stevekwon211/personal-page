@@ -20,7 +20,7 @@ import p15 from "app/public/people/p15 Medium.jpeg";
 
 export function People() {
     return (
-        <div className="grid grid-cols-[200px_200px_200px] gap-4 ml-10 mb-10">
+        <div className="grid grid-cols-[200px_200px_200px] gap-4 mb-10">
             <Image src={p15} alt="p15" width={300} height={300} />
             <Image src={p12} alt="p12" width={300} height={300} />
             <Image src={p6} alt="p6" width={300} height={300} />

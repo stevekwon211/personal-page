@@ -3,11 +3,9 @@ import Link from "next/link";
 export function About() {
     return (
         <div className="">
-            <h1 className="mb-8 text-2xl font-medium tracking-tighter">doeon kwon</h1>
-            <h3 className="mb-8 text-xl font-medium tracking-tighter">
-                영감을 주는 컨텐츠를 만들고 사람들을 연결하는 일을 합니다
-            </h3>
-            <p className="mb-4 mr-40">
+            <h1 className="mb-8 text-4xl font-medium tracking-tighter">Grow the inspiration of the internet</h1>
+            <h3 className="mb-8 text-l font-medium tracking-tighter">Doeon Kwon</h3>
+            <p className="mb-4 mr-36">
                 어린 시절부터 역사, 과학, 탐험 등에 관심이 많았으며, 인터넷을 통해 제가 동경하는 위인들과 컨텐츠를
                 찾아다녔습니다. 그리고 더 많은 사람들이 위인들처럼 세상에 유익하고 영감을 주는 것을 창작하도록 만들고
                 싶었습니다.

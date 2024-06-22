@@ -11,8 +11,8 @@ function ArrowIcon() {
 
 export default function Footer() {
     return (
-        <footer className="">
-            <ul className="font-sm flex flex-col space-x-0 space-y-2 md:flex-row md:space-x-4 md:space-y-0 ">
+        <footer className="mt-8">
+            <ul className="font-sm flex flex-col space-x-0 space-y-2 md:flex-row md:space-x-4 md:space-y-0">
                 <li>
                     <a
                         className="
@@ -65,7 +65,7 @@ export default function Footer() {
                     </a>
                 </li>
             </ul>
-            <p className="mt-8 ">stevekwon@disquiet.io</p>
+            <p className="mt-8">stevekwon@disquiet.io</p>
         </footer>
     );
 }

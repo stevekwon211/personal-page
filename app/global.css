@@ -29,14 +29,14 @@
     }
 }
 
-html {
-    min-width: 360px;
-}
-
 /* 기본 다크 모드 스타일링 */
 body {
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 화이트 모드 스타일링 */

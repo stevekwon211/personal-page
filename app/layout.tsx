@@ -40,15 +40,15 @@ const cx = (...classes) => classes.filter(Boolean).join(" ");
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
-        <html lang="en" className={cx("text-black ", GeistSans.variable, GeistMono.variable)}>
-            <body className="antialiased px-10 py-10 lg:mx-auto">
-                <Navbar />
-                <main className="flex-wrap min-w-0 mt-6 flex-col px-2 md:px-0">
-                    {children}
+        <html lang="en" className={cx("text-black", GeistSans.variable, GeistMono.variable)}>
+            <body className="antialiased flex flex-row items-center justify-center m-12">
+                <div className="flex flex-col items-center justify-center max-w-4xl">
+                    <Navbar />
+                    <main className="flex-grow flex flex-col items-center justify-center w-full">{children}</main>
                     <Footer />
-                    <Analytics />
-                    <SpeedInsights />
-                </main>
+                </div>
+                <Analytics />
+                <SpeedInsights />
             </body>
         </html>
     );
