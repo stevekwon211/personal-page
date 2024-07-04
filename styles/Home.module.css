@@ -1,0 +1,80 @@
+.taste {
+    position: relative;
+}
+.tasteWrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 40px;
+}
+.doeonKwon {
+    position: relative;
+    font-weight: 600;
+}
+.writeContentsSpread {
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+}
+.name {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.disquietIg {
+    position: relative;
+    font-size: 24px;
+    font-weight: 300;
+}
+.intro1 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    font-size: 32px;
+}
+.about {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: right;
+    font-size: 48px;
+}
+.macbookPro141 {
+    width: 100%;
+    position: relative;
+    height: 982px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 72px;
+    color: #fff;
+    font-family: Pretendard;
+}
