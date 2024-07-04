@@ -66,21 +66,21 @@ export default function Home() {
                         <p className="text-4xl font-light mb-1">find me on</p>
                         <p className="text-xl font-light">
                             <Link
-                                href="https://disquiet.com"
+                                href="https://disquiet.io/@kwondoeon"
                                 className="transition-colors duration-500 hover:text-custom-gray"
                             >
                                 disquiet
                             </Link>{" "}
                             /{" "}
                             <Link
-                                href="https://instagram.com"
+                                href="https://www.instagram.com/kwondoeon/"
                                 className="transition-colors duration-500 hover:text-custom-gray"
                             >
                                 ig
                             </Link>{" "}
                             /{" "}
                             <Link
-                                href="https://www.threads.net"
+                                href="https://www.threads.net/@kwondoeon"
                                 className="transition-colors duration-500 hover:text-custom-gray"
                             >
                                 thread
