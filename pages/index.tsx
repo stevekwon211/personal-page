@@ -9,14 +9,15 @@ export default function Home() {
             <Head>
                 <title>Doeon Kwon</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="preload" href="/background-1.webp" as="image" />
             </Head>
 
             <div className="absolute inset-0">
                 <Image
-                    src="/background-1.png"
+                    src="/background-1.webp"
                     layout="fill"
                     objectFit="cover"
-                    quality={100}
+                    quality={80}
                     sizes="100vw"
                     alt="Background"
                     priority
