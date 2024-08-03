@@ -17,9 +17,9 @@ export default function Home() {
             <div className="MiddleWidget w-full max-w-[1000px] sm:w-hug min-h-[500px] h-fit p-3 sm:p-5 bg-stone-200 rounded-2xl shadow flex flex-col sm:flex-row m-4">
                 <div className="LeftBar w-full sm:w-full md:w-auto md:max-w-[180px] self-stretch p-3 rounded-lg shadow flex-col justify-between items-center inline-flex relative overflow-hidden mb-4 sm:mb-0">
                     <Image src="/bag1.png" alt="Background" layout="fill" objectFit="cover" quality={100} priority />
-                    <div className="relative z-10 flex flex-col justify-between gap-2 items-center h-full w-full">
+                    <div className="relative z-10 flex flex-col justify-between gap-2 h-full w-full">
                         <div className="text-white text-[17px] font-normal font-normal text-center sm:text-left">
-                            좋은 제품에 대한 글을 쓰고 영감을 퍼뜨리기.
+                            좋은 제품에 대한<br></br>영감을 퍼뜨립니다.
                         </div>
                         <div className="Frame1 self-stretch h-11 flex-col justify-end items-center gap-2 flex">
                             <div className="DoeonKwon self-stretch text-white text-[15px] font-normal text-center sm:text-left">
