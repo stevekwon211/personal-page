@@ -116,7 +116,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="Product self-stretch pb-2 justify-start items-start gap-4 sm:gap-8 flex flex-col sm:flex-row">
-                            <div className="Frame2 self-stretch justify-center items-start gap-3 flex">
+                            <div className="Frame2  justify-center items-start gap-3 flex">
                                 <div className="01Present text-neutral-400 text-[13px] font-normal font-['Pretendard']">
                                     2022.01 ~ Present
                                 </div>
